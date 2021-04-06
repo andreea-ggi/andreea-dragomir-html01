@@ -17,6 +17,7 @@
 
 <body>
 
+
   <form action="/">
     <label for="message"> Mesaj*</label>
     <textarea
@@ -29,8 +30,63 @@
     >
 
     </textarea>
+    <form action="/">
+      <label for="details"> Detalii </label>
+      <textarea
+        name="details"
+        id="details"
+        cols="30"
+        rows="8"
+        placeholder="Detalii"
+      ></textarea>
+
+
+    </form>
+
+
+
 
   </form>
+  <form action="name">
+    <label for="name"> Name* </label>
+    <input
+      type="text"
+      placeholder="Nume"
+      name="name"
+      value="name"
+      id="name"
+      minlength="5"
+      maxlength="30"
+      required
+    >
+
+  </form>
+
+  <form action="surname">
+    <label for="surname"> Surname*</label>
+    <input
+      type="text"
+      placeholder="Prenume"
+      value="surname"
+      name="surname"
+      minlength="5"
+      maxlength="30"
+      required
+    >
+
+
+
+  </form>
+
+  <button
+    type="submit"
+    name="submit"
+  > Submit</button>
+  <button
+    type="reset"
+    name="reset"
+  > Reset </button>
+
   <div
     class="pixeltab-host"
     id="html01-03-09"
